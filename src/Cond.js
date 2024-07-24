@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import Login from './Login';
+import Register from './Register';
 function Cond(props) {
   const [login, setLogin] = useState(true);
 
@@ -16,7 +17,7 @@ function Cond(props) {
 
       <button onClick={handleClick1}> register</button>
       <br></br>
-      {login ? <h1>Login Message  </h1> : <h1>Register message</h1>}
+      {login ? <Login /> : <Register/>}
     </div>
   );
 }
