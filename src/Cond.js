@@ -14,7 +14,7 @@ function Cond(props) {
     <div style={{padding:'50px',textAlign:'center'}}>
       <button onClick={handleClick}>login</button>
 
-      <button onClick={handleClick1}>register</button>
+      <button onClick={handleClick1}>r egister</button>
       <br></br>
       {login ? <h1>Login Message  </h1> : <h1>Register message</h1>}
     </div>
