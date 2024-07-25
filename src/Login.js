@@ -10,7 +10,7 @@ function Login(props) {
     const formSubmitted = (event) => {
         event.preventDefault();
         console.log("Form Submitted");
-        console.log("College-ID:", firstRef.current.value);
+        console.log("College-ID ok:", firstRef.current.value);
         console.log("Password:", passwordRef.current.value);
         if(firstRef.current.value == passwordRef.current.value){
               setMessage("correct details");

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import DataFetching from './DataFetching';
-
+//import DataFetching from './DataFetching';
+import App from './App';
 // function MissedGoal() {
 // 	return <h1>MISSED!</h1>;
 // }
@@ -19,4 +19,4 @@ import DataFetching from './DataFetching';
 // }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<DataFetching/>);
+root.render(<App/>);
