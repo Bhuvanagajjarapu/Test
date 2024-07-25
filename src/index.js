@@ -1,8 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Eleven from './Eleven';
+import DataFetching from './DataFetching';
 
-//import Register from './Register';
-const container = document.getElementById("root");
-const root = ReactDOM.createRoot(container);
-root.render(<Eleven/>);
+// function MissedGoal() {
+// 	return <h1>MISSED!</h1>;
+// }
+
+// function MadeGoal() {
+// 	return <h1>GOAL!</h1>;
+// }
+
+// function Goal(props) {
+//   const isGoal = props.isGoal;
+//   if (isGoal) {
+//     return <MadeGoal/>;
+//   }
+//   return <MissedGoal/>;
+// }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<DataFetching/>);
